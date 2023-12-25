@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="76.0" style="-fx-background-color: #F5F5DC;">
+         <children>
+            <ImageView layoutX="26.0" layoutY="20.0" opacity="0.82">
+               <image>
+                  <Image url="@images/menu-2-line.png" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="24.0" fitWidth="24.0" layoutX="26.0" layoutY="159.0" opacity="0.82">
+               <image>
+                  <Image url="@images/bowl-line.png" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" layoutX="28.0" layoutY="384.0" opacity="0.82">
+               <image>
+                  <Image url="@images/account-circle-line.png" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="24.0" fitWidth="24.0" layoutX="26.0" layoutY="558.0" opacity="0.82">
+               <image>
+                  <Image url="@images/logout-box-line.png" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" layoutX="26.0" layoutY="232.0" opacity="0.82">
+               <image>
+                  <Image url="@images/shopping-cart-2-line.png" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" layoutX="26.0" layoutY="308.0" opacity="0.82">
+               <image>
+                  <Image url="@images/store-2-line.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+
+</Pane>
